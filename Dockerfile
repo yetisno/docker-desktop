@@ -21,7 +21,7 @@ FROM ubuntu:12.04
 MAINTAINER Roberto G. Hashioka "roberto_hashioka@hotmail.com"
 
 RUN sed -i 's/archive.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.list
-RUN sed -i 's/security.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.li
+RUN sed -i 's/security.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.list
 RUN apt-get update
 
 # Set the env variable DEBIAN_FRONTEND to noninteractive
